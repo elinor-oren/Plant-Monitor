@@ -26,15 +26,34 @@ Hardware Assembly:
  
 
 ## Step 1B: Publishing Sensor Data 
-* Time
+Materials & Libraries 
+* EzTime 
 * Wifi
-* MQTT 
+* MQTT
+  
+Once the build is finished, the Arduino IDE function assigns pins to inputs, starts wifi, communicates the moisture and temperature values as outputs, and sends it to the MQTT connection.
 
-## Step 3: Storing + Visualizing Data 
+## Step 2: Storing + Visualizing Data 
+Materials & Libraries:  
+* microSD card
+* Raspberry Pi 4
+* InfluxDB + Telegraf Plug-in
+* Grafana + [Raspberry Pi template](https://github.com/influxdata/community-templates/blob/master/raspberry-pi/raspberry-pi-system.yml)
+
+The Raspberry Pi captures the MQTT data via Telegraf, stores it in an InfluxDB based database, and publishes to a Grafana visualization dashboard. It is essential that the Raspberry Pi is on the same WiFi network as the Soil Sensor.
+You must download InfluxDB, Telegraph, and Grafana to your SD card via "ssh" using the Terminal (OS).
 
 
 ## Additional Integrations
+* Blooming flower powered by an SG90-HV servo
+  > this flower takes moisture data to provide a real-time visualization of whether your flower needs to be watered. 
+#include <Servo.h>
+  
+* NO2 sensor 
 
+## Sources 
+- 3D Print Files: https://www.thingiverse.com/thing:5889692
+- Servo Code 
 
 ## Overview of Materials & Libraries 
 
