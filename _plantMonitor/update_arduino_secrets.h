@@ -1,4 +1,7 @@
 //Update the following data with your connectivity information; it is called as arduino_secrets.h
+
+#include <ESP8266WiFi.h>
+
 #define SECRET_SSID "your ssid";
 #define SECRET_PASS "your WiFi password";
 #define MQTT_SERVER "your MQTT broker address";
