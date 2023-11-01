@@ -44,16 +44,18 @@ The Raspberry Pi captures the MQTT data via Telegraf, stores it in an InfluxDB b
 You must download InfluxDB, Telegraph, and Grafana to your SD card via "ssh" using the Terminal (OS).
 
 
-## Additional Integrations
+## Optional: Step 3: Additional Integrations
 * Blooming flower powered by an SG90-HV servo
   > this flower takes moisture data to provide a real-time visualization of whether your flower needs to be watered. 
 #include <Servo.h>
+  >
+
   
 * NO2 sensor 
 
 ## Sources 
 - 3D Print Files: https://www.thingiverse.com/thing:5889692
-- Servo Code 
+- Servo Code: https://docs.arduino.cc/learn/electronics/servo-motors
 
 ## Overview of Materials & Libraries 
 
