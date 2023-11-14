@@ -24,7 +24,7 @@ int blueLED = 2;
 DHT dht(DHTPin, DHTTYPE);   // Initialize DHT sensor.
 
 
-// Create a secret library / tab with your Wifi and MQTT login information 
+// Create a secret library or tab with your Wifi and MQTT login information; THIS IS WHERE YOU SHOULD USE THE UPDATE ARDUINO SECRETS FILE
 #include "arduino_secrets.h" 
 /*
 
