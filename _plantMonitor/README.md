@@ -103,12 +103,12 @@ sudo systemctl enable grafana-server.service
 
 ![image](https://github.com/elinor-oren/Plant-Monitor/assets/127933946/1c3ecb10-ea9a-4a76-9736-2ccb57addce3)
 
-The stl files are available via Thingiverse, and there's a good walkthrough of the assembley process here [here](https://www.youtube.com/watch?v=VH2Jd4LjL08&ab_channel=4kicks) I'm still troubleshooting the build of this bit... (and also haven't figured out how to resize images)
+The stl files are available via Thingiverse, and there's a good video of the assembly process [here](https://www.youtube.com/watch?v=VH2Jd4LjL08&ab_channel=4kicks). Because I'm still troubleshooting the build of this bit... (and also haven't figured out how to resize images)
 
 ![scrap-plastic](https://github.com/elinor-oren/Plant-Monitor/assets/127933946/d0ef62b4-89ab-47bc-b63a-a2e194d6bc63)
 
 
-...but have made a simplified representation of what this blooming flower *could* look like and have included the code for this sweeping motion in ```servoFlower.ino```. 
+...I made a simplified representation of what this blooming flower *could* look like and have included the code for this sweeping motion in ```servoFlower.ino```. 
 
 https://github.com/elinor-oren/Plant-Monitor/assets/127933946/013af9c1-617a-4b49-9db3-cbb94b92e9f9
 
