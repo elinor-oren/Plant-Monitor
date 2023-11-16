@@ -29,7 +29,7 @@ The Feather Huzzah uses the takes readings every minute. There is an NPN transis
 Here is a close-up of the pinout diagram:
 
 ![image](https://github.com/elinor-oren/Plant-Monitor/assets/127933946/042e0a72-8cc0-40d5-9a4d-68a615710f96)
->Image used from CASA tutorial.
+_Image used from CASA tutorial._
 
 
 ## Step 2: Publishing Sensor Data 
@@ -69,6 +69,7 @@ Add the Grafana + Raspberry Pi template linked above.
 Then create a new ```mqtt-data``` bucket in the Load Data section to create a storage for your plant data. At this point, your screen should look like this:
 
 <img width="1715" alt="mqtt-data" src="https://github.com/elinor-oren/Plant-Monitor/assets/127933946/6c6ab601-b5e4-405a-ad0b-6bcaa8fd2d55">
+_Image used from CASA tutorial._
 
 
 #### Streaming Data Setup (Telegraf)
