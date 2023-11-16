@@ -4,7 +4,7 @@ This repository contains (an attempt at) documention for a plant monitor, with t
 ![plant-with-monitor](https://github.com/elinor-oren/Plant-Monitor/assets/127933946/4257876b-0220-4251-a2c7-f1a88bc011da)
 
 
-The sensor uses a DHT 22 to detect temperature and humidity as well as the resistance levels of two nails embedded in the plant to detect soil moisture; moisture readings are _highly variable_ and are _dependet on nail placement._ Make sure that the nails are close enough to get a moisture reading. We use the Adafruit Feather HUZZAH ESP8266 as a base to connect to Wi-Fi and transmit data via MQTT for display. 
+The sensor uses a DHT 22 to detect temperature and humidity as well as the resistance levels of two nails embedded in the plant to detect soil moisture; moisture readings are _highly variable_ and are _dependent on nail placement._ Make sure that the nails are close enough to get a moisture reading. We use the Adafruit Feather HUZZAH ESP8266 as a base to connect to Wi-Fi and transmit data via MQTT for display. 
 
 ## Workflow 
 * Step 1: Sensor Set-up
@@ -99,7 +99,7 @@ sudo systemctl enable grafana-server.service
 ## Optional: Step 4: Additional Integrations
 * Blooming flower powered by an SG90-HV servo
   > this code takes moisture data to provide a real-time visualization of whether your plant needs to be watered by applying a blooming effect when the moisture data is too low. 
-#include <Servo.h>
+#include <Servo.h> // this library is pre-installed on the Arduino IDE
 
 ![image](https://github.com/elinor-oren/Plant-Monitor/assets/127933946/1c3ecb10-ea9a-4a76-9736-2ccb57addce3)
 
