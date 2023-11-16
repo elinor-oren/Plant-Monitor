@@ -98,17 +98,17 @@ sudo systemctl enable grafana-server.service
 
 ## Optional: Step 4: Additional Integrations
 * Blooming flower powered by an SG90-HV servo
-  > this code takes moisture data to provide a real-time visualization of whether your plant needs to be watered by applying a blooming effect when the moisture data is too low. 
+  > this would ideally take moisture data to provide a real-time visualization of whether your plant needs to be watered and apply a blooming effect when the moisture data is too low. 
 #include <Servo.h> // this library is pre-installed on the Arduino IDE
 
 ![image](https://github.com/elinor-oren/Plant-Monitor/assets/127933946/1c3ecb10-ea9a-4a76-9736-2ccb57addce3)
 
-I'm still troubleshooting this bit... (and haven't figured out how to resize images)
+I'm still troubleshooting the build of this bit... (and haven't figured out how to resize images)
 
 ![scrap-plastic](https://github.com/elinor-oren/Plant-Monitor/assets/127933946/d0ef62b4-89ab-47bc-b63a-a2e194d6bc63)
 
 
-but have made a simplified representation of what this blooming flower *could* look like and have included sample code of this. 
+but have made a simplified representation of what this blooming flower *could* look like and have included sample code of this sweeping motion alone.
 
 
 https://github.com/elinor-oren/Plant-Monitor/assets/127933946/013af9c1-617a-4b49-9db3-cbb94b92e9f9
